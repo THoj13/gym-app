@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 export const ViteExample = () => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -26,5 +26,5 @@ export const ViteExample = () => {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
-}
+  );
+};
